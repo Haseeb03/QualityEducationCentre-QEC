@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Education Centre</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <!-- top bar -->
+    <div class="topbar">            
+      <div class="row rowstyle">
+        <div class="col-lg-3 contactnumber">                    
+          <a href="#" class="contact">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            &nbsp;+92 33 22 251 025
+          </a>
+        </div>
+        <div class="col-lg-3 help"> 
+          <a href="#" class="helpdesk">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            &nbsp;Online Help Desk
+          </a>
+        </div>
+        <div class="col-lg-3 studentlogin" style="align-items: center;">
+          <a href="#" class="login">
+            <i class="fa fa-user" aria-hidden="true"></i
+              >&nbsp;Student Login</a>
+        </div>
+        <div class="col-lg-3 studentlogin" style="align-items: center;">
+          <a href="#" class="login"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;</a>
+          <a href="#" class="login"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp;</a>
+          <a href="#" class="login"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;</a>
+          <a href="#" class="login"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;</a>
+          <a href="#" class="login"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;</a>
+          <a href="#" class="login"><i class="fa fa-skype" aria-hidden="true"></i>&nbsp;</a>
+          
+        </div>
+      </div>
+    </div>
+    <!-- top bar -->
+    <!-- navigatio bar -->
+    <div class="navigation sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- QEC Logo -->
+        <a class="navbar-brand QECLogo" href="#">
+          <img src="images/Logo.png" alt="Quality Education Centre">
+        </a>
+        <!-- QEC Logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  HOME
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">
+                  ABOUT US
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admissions.html">
+                  ADMISSIONS
+                </a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link activetab" href="#">
+                  CONTACT  US
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </nav>
+    </div>
+    <!-- navigation bar -->
+    <!-- Contact Us Form -->
+    <div class="container contactfields">
+      <div class="classes">
+        <div class="row rowstyle">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="classesheading">
+              CONTACT US
+            </div>
+          </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name" class="contactfields">Name</label>
+                <input type="text" class="form-control" id="name" required placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{11}" required placeholder="03xxxxxxxxx">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required placeholder="Enter e-mail">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="message">Query/Message</label>
+                <textarea class="form-control" id="message" rows="3" required placeholder="Type your message or query"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="messagetype">Message/Query Type</label>
+                <select class="form-control" id="messagetype" required>
+                    <option disabled selected hidden>Choose message/query type...</option>
+                    <option>Information Required</option>
+                    <option>Complaint</option>
+                    <option>Feedback</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="usertype">User Type</label>
+                <select class="form-control" id="usertype" required>
+                    <option disabled selected hidden>Choose user type...</option>
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>Parent</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">Send Message/Query</button>
+            <button type="reset" class="btn">Reset</button>
+          </form>
+      </div>
+    </div>
+    <!-- Contact Us Form -->
+    <div style="text-align: center;">
+      <small>Images and content used in this website are downloaded from different websites.</small>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Social Media Bar -->
+      <div class="row rowstyle socialmediabar">
+        <div class="col-xl-2 col-lg-2 col-sm-4 col-4 text-center">
+          <a href="#" class="socialmedia btn-floating fa-2x">
+            <i class="fa fa-facebook"> </i>
+          </a>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-sm-4 col-4 text-center">
+          <a href="#" class="socialmedia btn-floating fa-2x">
+            <i class="fa fa-whatsapp"> </i>
+          </a>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-sm-4 col-4 text-center">
+          <a href="#" class="socialmedia btn-floating fa-2x">
+            <i class="fa fa-twitter"> </i>
+          </a>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-sm-4 col-4 text-center">
+          <a href="#" class="socialmedia btn-floating fa-2x">
+            <i class="fa fa-linkedin"> </i>
+          </a>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-sm-4 col-4 text-center">
+          <a href="#" class="socialmedia btn-floating fa-2x">
+            <i class="fa fa-instagram"> </i>
+          </a>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-sm-4 col-4 text-center">
+          <a href="#" class="socialmedia btn-floating fa-2x">
+            <i class="fa fa-skype"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Social Media Bar -->
+      <div class="row" style="background-color: white;">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row" style="width: 80%; margin-left: 10%;">
+            <!-- Who We Are -->
+            <div class="col-md-6 mt-md-0 mt-3">
+              <h3 class="footerheading">
+                Who We Are
+              </h3>
+              <p class="footertext">
+              Quality Education Centre is considered among the leading educational institutes in the city and has been serving the citizens of karachi as well as across the PAKISTAN.
+              </p>
+            </div>
+            <!-- Who We Are -->
+            <!-- Useful Links -->
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h3 class="footerheading">
+                Useful Links
+              </h3>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="/">
+                    <p class="linkunderlineonhover footertext">
+                      Home
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    <p class="linkunderlineonhover footertext">
+                      About Us
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="admissions.html">
+                    <p class="linkunderlineonhover footertext">
+                      Admissions
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="gallery.html">
+                    <p class="linkunderlineonhover footertext">
+                      Gallery
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="contact.html">
+                    <p class="linkunderlineonhover footertext">
+                      Contact Us
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Useful Links -->
+            <!-- Contacts -->
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h3 class="footerheading">
+                Contacts
+              </h3>
+              <ul class="list-unstyled">
+                <li>
+                  <p class="footertext">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Zaman Town, Korangi-04, Karachi
+                  </p>
+                </li>
+                <li>
+                  <p class="footertext">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    +92 33 22 25 10 25
+                  </p>
+                </li>
+                <li>
+                  <p class="footertext">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    info@qec.edu.pk
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <!-- Contacts -->
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="copyrighttext footer-copyright text-center py-3" style="background-color:white;">© 2020 Copyright:
+        <a href="#" class="copyrighttext">
+          qualityeducatiocentre.edu.pk
+        </a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- js link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- js link -->
+  </body>
+</html>
